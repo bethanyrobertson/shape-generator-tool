@@ -7,15 +7,15 @@ This Shape Pattern Generator is a space to play with primary shapes, scale, and 
 
 ## Process
 
-![layout](https://github.com/user-attachments/assets/292cc1bb-5873-4f13-8229-02fa2cfcdfb5)
-Wireframe
+![layout](https://github.com/user-attachments/assets/292cc1bb-5873-4f13-8229-02fa2cfcdfb5)<br/>
+Wireframe<br/>
 
-<img width="1256" alt="Screenshot 2025-03-11 at 12 33 34 PM" src="https://github.com/user-attachments/assets/aae8f2b3-2103-477b-b8f1-79e3c273841f" />
-Firebase database of color combinations
+<img width="1256" alt="Screenshot 2025-03-11 at 12 33 34 PM" src="https://github.com/user-attachments/assets/aae8f2b3-2103-477b-b8f1-79e3c273841f" /><br/>
+Firebase database of color combinations<br/>
 
 
-<img width="478" alt="Screenshot 2025-03-11 at 12 33 46 PM" src="https://github.com/user-attachments/assets/2b31ab28-9825-4ded-848d-60d98922b88f" />
-Six color combinations
+<img width="478" alt="Screenshot 2025-03-11 at 12 33 46 PM" src="https://github.com/user-attachments/assets/2b31ab28-9825-4ded-848d-60d98922b88f" /><br/>
+Six color combinations<br/>
 
 
 
@@ -25,8 +25,8 @@ Because this was a V2 of my previous project, I had time and resources to evolve
 ### What didn't work well (what was difficult to understand or parse)?
 The most challenging aspect of developing my design tool was undoubtedly constructing and deploying the Firebase color combination database. I encountered numerous roadblocks when attempting to structure the database schema to efficiently store thousands of color palettes while maintaining quick retrieval times. Authentication issues plagued the early development stages, with user permissions requiring significant troubleshooting when accessing saved color profiles. Implementing real-time updates across concurrent user sessions demanded complex synchronization logic that I hadn't initially anticipated. The deployment process itself introduced an entirely new set of complications—environment configuration discrepancies between development and production repeatedly broke functionality that worked perfectly locally.  
 
-<img width="848" alt="Screenshot 2025-03-10 at 8 51 12 PM" src="https://github.com/user-attachments/assets/f089c2ad-87d5-4592-8db8-3a678a739577" />
-Error screen during deployment
+<img width="848" alt="Screenshot 2025-03-10 at 8 51 12 PM" src="https://github.com/user-attachments/assets/f089c2ad-87d5-4592-8db8-3a678a739577" /><br/>
+Error screen during deployment<br/>
 
   
 ### What changes would you make to this project now that it's deployed?
