@@ -11,6 +11,7 @@ export default function NavBar() {
           <div className="flex space-x-4">
             <NavLink
               to="/"
+               <span className="text-xl font-bold text-white">Shape Pattern Generator</span>
               className={({ isActive }) =>
                 isActive
                   ? "px-3 py-2 rounded-md text-sm font-medium bg-primary text-white"
