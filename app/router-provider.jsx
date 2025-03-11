@@ -21,7 +21,7 @@ export default function RouterProvider() {
       <NavBar />
       <div className="container mx-auto py-8 px-4">
         <Routes>
-          <Route path="/design" element={<ShapePatternGenerator />} />
+          <Route path="/" element={<ShapePatternGenerator />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
