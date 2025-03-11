@@ -3,15 +3,15 @@ import { cn } from "../../lib/utils"
 
 const Button = forwardRef(({ className, variant = "default", size = "default", children, ...props }, ref) => {
   const baseStyles =
-    "inline-flex items-center justify-center rounded-md font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none ring-offset-background"
+    "inline-flex items-center justify-center rounded-md font-medium transition-colors focus-visible:outline-white focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none ring-offset-background"
 
   const variants = {
-    default: "bg-primary text-primary-white hover:bg-primary/90",
-    destructive: "bg-destructive text-destructive-white hover:bg-destructive/90",
-    outline: "border border-input hover:bg-accent hover:text-accent-white",
-    secondary: "bg-secondary text-secondary-white hover:bg-secondary/80",
-    ghost: "hover:bg-accent hover:text-accent-white",
-    link: "underline-offset-4 hover:underline text-primary",
+    default: "bg-primary text-white hover:bg-primary/90",
+    destructive: "bg-destructive text-white hover:bg-destructive/90",
+    outline: "border border-input hover:bg-accent hover:text-white",
+    secondary: "bg-secondary text-white hover:bg-secondary/80",
+    ghost: "hover:bg-accent hover:text-white",
+    link: "underline-offset-4 hover:underline text-blue",
   }
 
   const sizes = {
