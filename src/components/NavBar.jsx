@@ -13,8 +13,8 @@ export default function NavBar() {
               to="/"
               className={({ isActive }) =>
                 isActive
-                  ? "px-3 py-2 rounded-md text-sm font-medium bg-primary text-primary-white"
-                  : "px-3 py-2 rounded-md text-sm font-medium text-white hover:bg-accent hover:text-accent-foreground"
+                  ? "px-3 py-2 rounded-md text-sm font-medium bg-primary text-white"
+                  : "px-3 py-2 rounded-md text-sm font-medium text-white hover:bg-accent hover:text-white"
               }
             >
               Design
@@ -23,8 +23,8 @@ export default function NavBar() {
               to="/about"
               className={({ isActive }) =>
                 isActive
-                  ? "px-3 py-2 rounded-md text-sm font-medium bg-primary text-primary-white"
-                  : "px-3 py-2 rounded-md text-sm font-medium text-white hover:bg-accent hover:text-accent-foreground"
+                  ? "px-3 py-2 rounded-md text-sm font-medium bg-primary text-white"
+                  : "px-3 py-2 rounded-md text-sm font-medium text-white hover:bg-accent hover:text-white"
               }
             >
               About
