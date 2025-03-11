@@ -112,7 +112,7 @@ export default function ShapePatternGenerator() {
 
   return (
     <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-      <Card className="lg:col-span-1 border-border bg-card text-card-white">
+      <Card className="lg:col-span-1 bg-card text-card-white">
         <CardContent className="pt-6">
           <div className="space-y-6">
             <div>
@@ -206,7 +206,7 @@ export default function ShapePatternGenerator() {
         </CardContent>
       </Card>
 
-      <Card className="lg:col-span-2 border-border bg-card text-card-white">
+      <Card className="lg:col-span-2 bg-card text-card-white">
         <CardContent className="pt-6">
           <div className="aspect-video w-full bg-slate-800 rounded-md overflow-hidden">
             <canvas ref={canvasRef} width={800} height={450} className="w-full h-full" />
