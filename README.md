@@ -5,9 +5,9 @@ This Shape Pattern Generator is a space to play with primary shapes, scale, and 
 <br>![intro](https://github.com/user-attachments/assets/49849c61-59d3-4d41-ac26-4b5d82863185)<br>
 
 Some of my inspiration:
-Talia Cotton: https://web.archive.org/web/20230131030402/https://branding.sva.edu/tool/
-Martin Lorenz: https://flexiblevisualsystems.info/
-Tim Rodenbroeker: https://timrodenbroeker.de/about/
+Talia Cotton: https://web.archive.org/web/20230131030402/https://branding.sva.edu/tool/ <br>
+Martin Lorenz: https://flexiblevisualsystems.info/ <br>
+Tim Rodenbroeker: https://timrodenbroeker.de/about/ <br>
 
 
 ## Process
