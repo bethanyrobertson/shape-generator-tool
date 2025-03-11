@@ -6,7 +6,7 @@ const Button = forwardRef(({ className, variant = "default", size = "default", c
     "inline-flex items-center justify-center text-white rounded-md font-medium transition-colors focus-visible:outline-white focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none ring-offset-background"
 
   const variants = {
-    default: "bg-primary text-white hover:bg-primary/90",
+    default: "text-white hover:bg-primary/90",
     destructive: "bg-destructive text-white hover:bg-destructive/90",
     outline: "border border-input hover:bg-accent hover:text-white",
     secondary: "bg-secondary text-white hover:bg-secondary/80",
