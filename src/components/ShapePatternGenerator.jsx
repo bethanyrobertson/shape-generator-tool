@@ -201,45 +201,14 @@ export default function ShapePatternGenerator() {
           <div className="flex gap-2">
             <button
               onClick={resetCanvas}
-              className="flex-1 flex items-center justify-center px-4 py-2 border border-gray-600 text-white rounded-md hover:bg-gray-700"
+              className="flex-1 flex items-center justify-center px-4 py-2 border border-gray-600 text-white rounded-md"
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="white"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="mr-2"
-              >
-                <path d="M23 4v6h-6"></path>
-                <path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"></path>
-              </svg>
               Reset
             </button>
             <button
               onClick={downloadPattern}
-              className="flex-1 flex items-center justify-center px-4 py-2 bg-primary text-white rounded-md hover:bg-primary/90"
+              className="flex-1 flex items-center justify-center border border-gray-600 px-4 py-2 text-white rounded-md"
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="white"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="mr-2"
-              >
-                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                <polyline points="7 10 12 15 17 10"></polyline>
-                <line x1="12" y1="15" x2="12" y2="3"></line>
-              </svg>
               Download
             </button>
           </div>
