@@ -6,12 +6,20 @@ export default function NavBar() {
       <div className="container mx-auto px-4">
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center">
-            <span className="text-xl font-bold text-white">Shape Pattern Generator</span>
+              <NavLink
+              to="/"
+              className={({ isActive }) =>
+                isActive
+                  ? "px-3 py-2 rounded-md text-sm font-medium bg-primary text-white"
+                  : "px-3 py-2 rounded-md text-sm font-medium text-white hover:bg-accent hover:text-white"
+              }
+            >
+              Shape Pattern Generator
+            </NavLink>
           </div>
           <div className="flex space-x-4">
             <NavLink
               to="/"
-               <span className="text-xl font-bold text-white">Shape Pattern Generator</span>
               className={({ isActive }) =>
                 isActive
                   ? "px-3 py-2 rounded-md text-sm font-medium bg-primary text-white"
