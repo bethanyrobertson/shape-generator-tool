@@ -194,11 +194,11 @@ export default function ShapePatternGenerator() {
 
             <div className="flex gap-2">
               <Button onClick={resetCanvas} variant="outline" className="flex-1">
-                <RotateCcw className="mr-2 h-4 w-4" />
+                <RotateCcw className="mr-2 h-4 w-4 text-white" />
                 Reset
               </Button>
               <Button onClick={downloadPattern} className="flex-1">
-                <Download className="mr-2 h-4 w-4" />
+                <Download className="mr-2 h-4 w-4 text-white" />
                 Download
               </Button>
             </div>
