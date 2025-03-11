@@ -3,7 +3,7 @@ export default function AboutPage() {
       <div className="container mx-auto py-8 px-4">
         <h1 className="text-3xl font-bold text-center mb-8 text-white">About This Project</h1>
   
-        <div className="max-w-3xl mx-auto bg-card rounded-lg border border-border p-6 shadow-sm">
+        <div className="max-w-3xl mx-auto  rounded-lg p-6 shadow-sm">
           <h2 className="text-2xl font-semibold mb-4 text-white">Shape Pattern Generator</h2>
   
           <p className="text-white mb-4">
