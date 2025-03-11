@@ -31,7 +31,7 @@ const Slider = forwardRef(({ className, min = 0, max = 100, step = 1, value = [0
         step={step}
         value={localValue}
         onChange={handleChange}
-        className="absolute w-full h-2 opacity-0 cursor-pointer"
+        className="absolute w-full h-2 opacity-0"
       />
       <div
         className="absolute h-4 w-4 rounded-full border-2 border-primary bg-background ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
