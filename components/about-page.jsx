@@ -3,7 +3,7 @@ export default function AboutPage() {
       <>
         <h1 className="text-3xl font-bold text-center mb-8 text-white">About This Project</h1>
   
-        <div className="max-w-3xl mx-auto bg-card rounded-lg border border-border p-6 shadow-sm">
+        <div className="max-w-3xl mx-auto bg-card rounded-lg p-6 shadow-sm">
           <h2 className="text-2xl font-semibold mb-4 text-white">Shape Pattern Generator</h2>
   
           <p className="text-white mb-4">
@@ -14,7 +14,7 @@ export default function AboutPage() {
   
           <p className="text-white mb-4">The Shape Pattern Generator features:</p>
   
-          <ul className="list-disc pl-6 mb-4 text-foreground">
+          <ul className="list-disc pl-6 mb-4 text-white">
             <li className="mb-2">Multiple shape options (circles, squares, triangles)</li>
             <li className="mb-2">Customizable size, spacing, and rotation controls</li>
             <li className="mb-2">Curated color combinations from Firebase</li>
