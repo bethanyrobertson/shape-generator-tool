@@ -8,7 +8,7 @@ function App() {
     <BrowserRouter>
       <div className="dark bg-black min-h-screen">
         {/* Navigation */}
-        <nav className="border-b border-border bg-card">
+        <nav className="bg-card">
           <div className="container mx-auto px-4">
             <div className="flex h-16 items-center justify-between">
               <div className="flex items-center">
@@ -19,8 +19,8 @@ function App() {
                   to="/"
                   className={({ isActive }) =>
                     isActive
-                      ? "px-3 py-2 rounded-md text-sm font-medium bg-primary text-primary-white"
-                      : "px-3 py-2 rounded-md text-sm font-medium text-foreground hover:bg-accent hover:text-accent-foreground"
+                      ? "px-3 py-2 rounded-md text-sm font-medium bg-primary text-white"
+                      : "px-3 py-2 rounded-md text-sm font-medium text-white hover:bg-accent hover:text-white"
                   }
                 >
                   Design
@@ -29,8 +29,8 @@ function App() {
                   to="/about"
                   className={({ isActive }) =>
                     isActive
-                      ? "px-3 py-2 rounded-md text-sm font-medium bg-primary text-primary-white"
-                      : "px-3 py-2 rounded-md text-sm font-medium text-white hover:bg-accent hover:text-accent-white"
+                      ? "px-3 py-2 rounded-md text-sm font-medium bg-primary text-white"
+                      : "px-3 py-2 rounded-md text-sm font-medium text-white hover:bg-accent hover:text-white"
                   }
                 >
                   About
