@@ -19,8 +19,8 @@ function App() {
                   to="/"
                   className={({ isActive }) =>
                     isActive
-                      ? "px-3 py-2 rounded-md text-sm font-medium bg-primary text-white"
-                      : "px-3 py-2 rounded-md text-sm font-medium text-white hover:bg-accent hover:text-white"
+                      ? "px-3 py-2 rounded-md text-sm font-medium text-white"
+                      : "px-3 py-2 rounded-md text-sm font-medium text-white"
                   }
                 >
                   Design
@@ -29,8 +29,8 @@ function App() {
                   to="/about"
                   className={({ isActive }) =>
                     isActive
-                      ? "px-3 py-2 rounded-md text-sm font-medium bg-primary text-white"
-                      : "px-3 py-2 rounded-md text-sm font-medium text-white hover:bg-accent hover:text-white"
+                      ? "px-3 py-2 rounded-md text-sm font-medium text-white"
+                      : "px-3 py-2 rounded-md text-sm font-medium text-white"
                   }
                 >
                   About
