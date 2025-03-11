@@ -128,7 +128,7 @@ export default function ShapePatternGenerator() {
                     )}
                   </span>
                   <span>
-                    {shapeOption === "circle" ? "⚪ Circle" : shapeOption === "square" ? "⬜ Square" : "Triangle"}
+                    {shapeOption === "circle" ? "⚪ Circle" : shapeOption === "square" ? "⬜ Square" : "△ Triangle"}
                   </span>
                 </label>
               ))}
