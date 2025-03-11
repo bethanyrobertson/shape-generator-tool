@@ -46,7 +46,7 @@ const RadioGroupItem = forwardRef(({ className, value, id, ...props }, ref) => {
       >
         {checked && (
           <span className="absolute inset-0 flex items-center justify-center">
-            <span className="h-2 w-2 rounded-full bg-primary-foreground" />
+            <span className="h-2 w-2 rounded-full bg-white" />
           </span>
         )}
       </span>
