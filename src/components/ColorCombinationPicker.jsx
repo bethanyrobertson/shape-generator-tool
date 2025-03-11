@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react"
 import { collection, getDocs } from "firebase/firestore"
-import { db } from "../lib/firebase"
+import { db } from "../../.env"
 
 // fallback in case Firebase fetch fails
 const fallbackCombinations = [
