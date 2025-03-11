@@ -1,5 +1,3 @@
-"use client"
-
 import { forwardRef, createContext, useContext, useState } from "react"
 import { cn } from "../../lib/utils"
 
@@ -40,7 +38,7 @@ const RadioGroupItem = forwardRef(({ className, value, id, ...props }, ref) => {
       <span
         className={cn(
           "h-4 w-4 rounded-full border border-primary",
-          checked ? "bg-white" : "bg-black",
+          checked ? "bg-white" : "bg-blue",
           className,
         )}
       >
