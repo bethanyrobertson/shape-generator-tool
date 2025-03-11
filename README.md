@@ -13,6 +13,7 @@ Wireframe
 <img width="1256" alt="Screenshot 2025-03-11 at 12 33 34 PM" src="https://github.com/user-attachments/assets/aae8f2b3-2103-477b-b8f1-79e3c273841f" />
 Firebase database of color combinations
 
+
 <img width="478" alt="Screenshot 2025-03-11 at 12 33 46 PM" src="https://github.com/user-attachments/assets/2b31ab28-9825-4ded-848d-60d98922b88f" />
 Six color combinations
 
