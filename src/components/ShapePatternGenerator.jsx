@@ -105,14 +105,14 @@ export default function ShapePatternGenerator() {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
       {/* Controls Panel */}
-      <div className="lg:col-span-1 border border-border rounded-lg bg-black text-card-white p-6">
+      <div className="lg:col-span-1 rounded-lg bg-black text-white p-6">
         <div className="space-y-6">
           {/* Shape Selection */}
           <div>
             <h3 className="text-lg font-medium mb-2">Shape</h3>
             <div className="flex space-x-4">
               {["circle", "square", "triangle"].map((shapeOption) => (
-                <label key={shapeOption} className="flex items-center space-x-2 cursor-pointer">
+                <label key={shapeOption} className="flex items-center space-x-2">
                   <input
                     type="radio"
                     value={shapeOption}
@@ -121,7 +121,7 @@ export default function ShapePatternGenerator() {
                     className="sr-only"
                   />
                   <span
-                    className={`h-4 w-4 rounded-full border ${shape === shapeOption ? "bg-primary border-primary" : "border-gray-500"}`}
+                    className={`h-4 w-4 rounded-full border ${shape === shapeOption ? "bg-primary" : "border-gray-500"}`}
                   >
                     {shape === shapeOption && (
                       <span className="block h-2 w-2 rounded-full bg-teal mx-auto mt-0.5"></span>
@@ -152,7 +152,7 @@ export default function ShapePatternGenerator() {
                   step={1}
                   value={size}
                   onChange={(e) => setSize(Number(e.target.value))}
-                  className="w-full h-2 bg-gray-700 rounded-lg appearance-none cursor-pointer"
+                  className="w-full h-2 bg-gray-700 rounded-full appearance-none"
                 />
               </div>
 
@@ -169,7 +169,7 @@ export default function ShapePatternGenerator() {
                   step={1}
                   value={spacing}
                   onChange={(e) => setSpacing(Number(e.target.value))}
-                  className="w-full h-2 bg-gray-700 rounded-lg appearance-none cursor-pointer"
+                  className="w-full h-2 bg-gray-700 rounded-full appearance-none"
                 />
               </div>
 
@@ -186,7 +186,7 @@ export default function ShapePatternGenerator() {
                   step={5}
                   value={rotation}
                   onChange={(e) => setRotation(Number(e.target.value))}
-                  className="w-full h-2 bg-gray-700 rounded-lg appearance-none cursor-pointer"
+                  className="w-full h-2 bg-gray-700 rounded-full appearance-none"
                 />
               </div>
             </div>
@@ -197,25 +197,11 @@ export default function ShapePatternGenerator() {
             <h3 className="text-lg font-medium mb-2">Color Combinations</h3>
             <ColorCombinationPicker bgColor={bgColor} fgColor={fgColor} onColorChange={handleColorCombinationChange} />
 
-            <div className="flex items-center mt-4 gap-2">
-              <div className="flex-1 h-10 rounded-md border border-gray-600" style={{ backgroundColor: bgColor }}>
-                <div className="h-full flex items-center justify-center">
-                  <span className="text-xs font-mono text-white/70">Background</span>
-                </div>
-              </div>
-              <div className="flex-1 h-10 rounded-md border border-gray-600" style={{ backgroundColor: fgColor }}>
-                <div className="h-full flex items-center justify-center">
-                  <span className="text-xs font-mono text-white/70">Foreground</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
           {/* Action Buttons */}
           <div className="flex gap-2">
             <button
               onClick={resetCanvas}
-              className="flex-1 flex items-center justify-center px-4 py-2 border border-gray-600 rounded-md hover:bg-gray-700"
+              className="flex-1 flex items-center justify-center px-4 py-2 border border-gray-600 text-white rounded-md hover:bg-gray-700"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -223,7 +209,7 @@ export default function ShapePatternGenerator() {
                 height="16"
                 viewBox="0 0 24 24"
                 fill="none"
-                stroke="currentColor"
+                stroke="white"
                 strokeWidth="2"
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -236,7 +222,7 @@ export default function ShapePatternGenerator() {
             </button>
             <button
               onClick={downloadPattern}
-              className="flex-1 flex items-center justify-center px-4 py-2 bg-primary text-primary-foreground rounded-md hover:bg-primary/90"
+              className="flex-1 flex items-center justify-center px-4 py-2 bg-primary text-white rounded-md hover:bg-primary/90"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -244,7 +230,7 @@ export default function ShapePatternGenerator() {
                 height="16"
                 viewBox="0 0 24 24"
                 fill="none"
-                stroke="currentColor"
+                stroke="white"
                 strokeWidth="2"
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -261,7 +247,7 @@ export default function ShapePatternGenerator() {
       </div>
 
       {/* Canvas Display */}
-      <div className="lg:col-span-2 border border-border rounded-lg bg-card text-card-foreground p-6">
+      <div className="lg:col-span-2 rounded-lg bg-card text-white p-6">
         <div className="aspect-video w-full bg-slate-800 rounded-md overflow-hidden">
           <canvas ref={canvasRef} width={800} height={450} className="w-full h-full" />
         </div>
