@@ -40,7 +40,7 @@ const RadioGroupItem = forwardRef(({ className, value, id, ...props }, ref) => {
       <span
         className={cn(
           "h-4 w-4 rounded-full border border-primary",
-          checked ? "bg-primary" : "bg-background",
+          checked ? "bg-white" : "bg-black",
           className,
         )}
       >
