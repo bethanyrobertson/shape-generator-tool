@@ -25,6 +25,8 @@ export default function AboutPage() {
           <p className="text-white">
             Feel free to experiment with different settings to create unique patterns for your projects, presentations, or
             just for fun!
+
+            -Bethany Robertson, www.brober.xyz
           </p>
         </div>
       </>
