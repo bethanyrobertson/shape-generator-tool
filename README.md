@@ -28,9 +28,6 @@ The most challenging aspect of developing my design tool was undoubtedly constru
 Error screen during deployment<br/>
 
   
-### What changes would you make to this project now that it's deployed?
+### What changes would you make to this project now that it's deployed? What would you improve and/or add to this project now that it's deployed?
 
-  
-#What would you improve and/or add to this project now that it's deployed?
-I'd totally revamp my layout options to make them way more flexible. First, I'd throw in a simple drag-and-drop system so I can move text boxes wherever I want without all that coding hassle. Then I'd add some quick templates - maybe a few columns, some image-text combos, and those cool card layouts everyone's using now. For text inputs, I'd make them actually look good for once! Different sizes, custom borders, maybe even some color options to match my style. Nothing too fancy, just practical stuff that lets me arrange things my way without fighting with the interface. I'd definitely add some toggles for spacing too.
-  
+I'd totally revamp my layout options to make them way more flexible. First, I'd throw in a simple drag-and-drop system so I can move text boxes and shapes around fluidly. Then I'd add some quick templates - maybe a few columns, some image-text combos. I would love to continue to iterate on this as an internal tool for my marketing team, so that they are able to create simple on-brand graphics for events and social media with some design constraints to keep consistency. 
