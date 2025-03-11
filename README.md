@@ -2,21 +2,15 @@
 
 ## 	** **Summary	** **
 This Shape Pattern Generator is a space to play with primary shapes, scale, and space to create a pattern that can be downloaded as a PNG. This project is a v2 of my previous polygon generator in the first class (pictured below).
+<br>![intro](https://github.com/user-attachments/assets/49849c61-59d3-4d41-ac26-4b5d82863185)<br>
 
-<img width="823" alt="Screenshot 2025-03-11 at 12 39 06 PM" src="https://github.com/user-attachments/assets/c0f013cb-6a5a-4861-838f-cf646b64c5bb" />
 
 ## Process
-
-![layout](https://github.com/user-attachments/assets/292cc1bb-5873-4f13-8229-02fa2cfcdfb5)<br/>
+![layout](https://github.com/user-attachments/assets/9fe2062b-3cfb-41cd-bc09-1303f0e31521)<br/>
 Wireframe<br/>
 
-<img width="1256" alt="Screenshot 2025-03-11 at 12 33 34 PM" src="https://github.com/user-attachments/assets/aae8f2b3-2103-477b-b8f1-79e3c273841f" /><br/>
+![Firebase](https://github.com/user-attachments/assets/db6cc7cc-d5c4-422b-b9e1-32c6e86504e0)<br>
 Firebase database of color combinations<br/>
-
-
-<img width="478" alt="Screenshot 2025-03-11 at 12 33 46 PM" src="https://github.com/user-attachments/assets/2b31ab28-9825-4ded-848d-60d98922b88f" /><br/>
-Six color combinations<br/>
-
 
 
 ### What worked well in this project (what was easy/straightforward)?
