@@ -67,7 +67,7 @@ export default function ColorCombinationPicker({ bgColor, fgColor, onColorChange
   if (loading) {
     return (
       <div className="flex justify-center items-center h-32">
-        <div className="animate-spin h-8 w-8 border-4 border-primary border-t-transparent rounded-full"></div>
+        <div className="animate-spin h-8 w-8 rounded-full"></div>
       </div>
     )
   }
@@ -84,7 +84,7 @@ export default function ColorCombinationPicker({ bgColor, fgColor, onColorChange
         {colorCombinations.map((combo) => (
           <button
             key={combo.id}
-            className="relative h-16 rounded-md border border-gray-600 overflow-hidden cursor-pointer transition-transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-primary"
+            className="relative h-16 rounded-md overflow-hidden transition-transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-primary"
             onClick={() => onColorChange(combo.bg, combo.fg)}
             aria-label={`Select color combination ${combo.name}`}
             title={combo.name}
