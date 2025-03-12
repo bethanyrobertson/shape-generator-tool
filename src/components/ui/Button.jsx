@@ -8,7 +8,7 @@ const Button = forwardRef(({ className, variant = "default", size = "default", c
   const variants = {
     default: "text-white hover:bg-primary/90",
     destructive: "bg-destructive text-white hover:bg-destructive/90",
-    outline: "border border-input hover:bg-accent hover:text-white",
+    outline: "border text-white border-input",
     secondary: "bg-secondary text-white hover:bg-secondary/80",
     ghost: "hover:bg-accent hover:text-white",
     link: "underline-offset-4 hover:underline text-blue",
