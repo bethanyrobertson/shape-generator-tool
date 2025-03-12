@@ -216,7 +216,7 @@ export default function ShapePatternGenerator() {
       </div>
 
       {/* Canvas Display */}
-      <div className="lg:col-span-2 rounded-lg bg-card text-white p-6">
+      <div className="lg:col-span-2 rounded-lg text-white p-6">
         <div className="aspect-video w-full bg-slate-800 rounded-md overflow-hidden">
           <canvas ref={canvasRef} width={800} height={450} className="w-full h-full" />
         </div>
