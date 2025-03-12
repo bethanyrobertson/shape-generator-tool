@@ -197,7 +197,7 @@ export default function ShapePatternGenerator() {
                 <RotateCcw className="mr-2 h-4 w-4 text-white" />
                 Reset
               </Button>
-              <Button onClick={downloadPattern} className="flex-1">
+              <Button onClick={downloadPattern} variant="outline" className="flex-1">
                 <Download className="mr-2 h-4 w-4 text-white" />
                 Download
               </Button>
